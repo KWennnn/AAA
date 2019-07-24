@@ -39,6 +39,7 @@
     [btn addTarget:self action:@selector(btnClick) forControlEvents:UIControlEventTouchUpInside];
      NSLog(@"333");
      NSLog(@"222");
+         NSLog(@"444");
 }
 
 -(void)btnClick {
