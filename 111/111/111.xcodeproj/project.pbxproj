@@ -17,7 +17,11 @@
 		216031DF22E7F19200180F2A /* _11UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 216031DE22E7F19200180F2A /* _11UITests.m */; };
 		216031EF22E7F31200180F2A /* ImageTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 216031EE22E7F31200180F2A /* ImageTool.m */; };
 		216031F422E8014000180F2A /* AdvertManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 216031F322E8014000180F2A /* AdvertManager.m */; };
-		216031F822E803AC00180F2A /* Abc.m in Sources */ = {isa = PBXBuildFile; fileRef = 216031F722E803AC00180F2A /* Abc.m */; };
+		216031FC22E80C5500180F2A /* AdvertViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 216031FB22E80C5500180F2A /* AdvertViewController.m */; };
+		216031FF22E80C6C00180F2A /* AdvertView.m in Sources */ = {isa = PBXBuildFile; fileRef = 216031FE22E80C6C00180F2A /* AdvertView.m */; };
+		2160320222E80C7E00180F2A /* AdvertModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2160320122E80C7E00180F2A /* AdvertModel.m */; };
+		2160320822E83D1D00180F2A /* AdvertManager+BBB.m in Sources */ = {isa = PBXBuildFile; fileRef = 2160320722E83D1D00180F2A /* AdvertManager+BBB.m */; };
+		2160320C22E8451100180F2A /* NSArray+Extend.m in Sources */ = {isa = PBXBuildFile; fileRef = 2160320B22E8451100180F2A /* NSArray+Extend.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,8 +62,17 @@
 		216031EE22E7F31200180F2A /* ImageTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ImageTool.m; sourceTree = "<group>"; };
 		216031F222E8014000180F2A /* AdvertManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AdvertManager.h; sourceTree = "<group>"; };
 		216031F322E8014000180F2A /* AdvertManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AdvertManager.m; sourceTree = "<group>"; };
-		216031F622E803AC00180F2A /* Abc.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Abc.h; sourceTree = "<group>"; };
-		216031F722E803AC00180F2A /* Abc.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Abc.m; sourceTree = "<group>"; };
+		216031FA22E80C5500180F2A /* AdvertViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AdvertViewController.h; sourceTree = "<group>"; };
+		216031FB22E80C5500180F2A /* AdvertViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AdvertViewController.m; sourceTree = "<group>"; wrapsLines = 1; };
+		216031FD22E80C6C00180F2A /* AdvertView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AdvertView.h; sourceTree = "<group>"; };
+		216031FE22E80C6C00180F2A /* AdvertView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AdvertView.m; sourceTree = "<group>"; };
+		2160320022E80C7E00180F2A /* AdvertModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AdvertModel.h; sourceTree = "<group>"; };
+		2160320122E80C7E00180F2A /* AdvertModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AdvertModel.m; sourceTree = "<group>"; };
+		2160320422E830A900180F2A /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		2160320622E83D1D00180F2A /* AdvertManager+BBB.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AdvertManager+BBB.h"; sourceTree = "<group>"; };
+		2160320722E83D1D00180F2A /* AdvertManager+BBB.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "AdvertManager+BBB.m"; sourceTree = "<group>"; };
+		2160320A22E8451100180F2A /* NSArray+Extend.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSArray+Extend.h"; sourceTree = "<group>"; };
+		2160320B22E8451100180F2A /* NSArray+Extend.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSArray+Extend.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,13 +129,21 @@
 				216031BE22E7F19000180F2A /* ViewController.m */,
 				216031ED22E7F31200180F2A /* ImageTool.h */,
 				216031EE22E7F31200180F2A /* ImageTool.m */,
-				216031F522E8038500180F2A /* abc */,
+				216031FA22E80C5500180F2A /* AdvertViewController.h */,
+				216031FB22E80C5500180F2A /* AdvertViewController.m */,
+				216031FD22E80C6C00180F2A /* AdvertView.h */,
+				216031FE22E80C6C00180F2A /* AdvertView.m */,
+				2160320022E80C7E00180F2A /* AdvertModel.h */,
+				2160320122E80C7E00180F2A /* AdvertModel.m */,
 				216031F122E8010000180F2A /* mgr */,
 				216031C022E7F19000180F2A /* Main.storyboard */,
 				216031C322E7F19200180F2A /* Assets.xcassets */,
 				216031C522E7F19200180F2A /* LaunchScreen.storyboard */,
 				216031C822E7F19200180F2A /* Info.plist */,
+				2160320422E830A900180F2A /* PrefixHeader.pch */,
 				216031C922E7F19200180F2A /* main.m */,
+				2160320622E83D1D00180F2A /* AdvertManager+BBB.h */,
+				2160320722E83D1D00180F2A /* AdvertManager+BBB.m */,
 			);
 			path = 111;
 			sourceTree = "<group>";
@@ -150,17 +171,10 @@
 			children = (
 				216031F222E8014000180F2A /* AdvertManager.h */,
 				216031F322E8014000180F2A /* AdvertManager.m */,
+				2160320A22E8451100180F2A /* NSArray+Extend.h */,
+				2160320B22E8451100180F2A /* NSArray+Extend.m */,
 			);
 			name = mgr;
-			sourceTree = "<group>";
-		};
-		216031F522E8038500180F2A /* abc */ = {
-			isa = PBXGroup;
-			children = (
-				216031F622E803AC00180F2A /* Abc.h */,
-				216031F722E803AC00180F2A /* Abc.m */,
-			);
-			path = abc;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -293,12 +307,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				216031F822E803AC00180F2A /* Abc.m in Sources */,
+				216031FF22E80C6C00180F2A /* AdvertView.m in Sources */,
 				216031BF22E7F19000180F2A /* ViewController.m in Sources */,
 				216031F422E8014000180F2A /* AdvertManager.m in Sources */,
+				2160320222E80C7E00180F2A /* AdvertModel.m in Sources */,
+				216031FC22E80C5500180F2A /* AdvertViewController.m in Sources */,
 				216031CA22E7F19200180F2A /* main.m in Sources */,
 				216031BC22E7F19000180F2A /* AppDelegate.m in Sources */,
 				216031EF22E7F31200180F2A /* ImageTool.m in Sources */,
+				2160320C22E8451100180F2A /* NSArray+Extend.m in Sources */,
+				2160320822E83D1D00180F2A /* AdvertManager+BBB.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -471,6 +489,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 5NZCS3U5P9;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/111/PrefixHeader.pch";
 				INFOPLIST_FILE = 111/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -480,7 +499,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "ansen.-11";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
-				USER_HEADER_SEARCH_PATHS = "${SRCROOT}";
+				USER_HEADER_SEARCH_PATHS = "";
 			};
 			name = Debug;
 		};
@@ -490,6 +509,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 5NZCS3U5P9;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/111/PrefixHeader.pch";
 				INFOPLIST_FILE = 111/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -499,7 +519,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "ansen.-11";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
-				USER_HEADER_SEARCH_PATHS = "${SRCROOT}";
+				USER_HEADER_SEARCH_PATHS = "";
 			};
 			name = Release;
 		};

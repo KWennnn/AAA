@@ -9,14 +9,14 @@
 #import "AdvertManager.h"
 
 @implementation AdvertManager
+//私有构造
 -(AdvertManager *)initPrivate {
     if (self = [super init]) {
         
     }
     return  self;
 }
-
-
+//单列
 +(AdvertManager*)shared {
     static AdvertManager *instance;
     static dispatch_once_t onceToken;
@@ -32,5 +32,9 @@
 
 -(void)showAdvert {
     //展示广告
+}
+
+-(void)closeAdvert {
+    
 }
 @end

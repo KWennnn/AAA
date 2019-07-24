@@ -7,8 +7,7 @@
 //
 
 #import "ViewController.h"
-#import "ImageTool.h"
-#import "abc/Abc.h"
+#import "AdvertManager.h"
 
 @interface ViewController ()<UITableViewDelegate,UITableViewDataSource>
 @property(nonatomic,strong) NSMutableArray *dataArray;

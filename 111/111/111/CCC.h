@@ -1,5 +1,5 @@
 //
-//  Abc.h
+//  CCC.h
 //  111
 //
 //  Created by YY on 2019/7/24.
@@ -10,7 +10,7 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface Abc : NSObject
+@protocol CCC <NSObject>
 
 @end
 

@@ -21,6 +21,8 @@ NS_ASSUME_NONNULL_BEGIN
 -(void)refreshAdvert;
 //展示广告
 -(void)showAdvert;
+//移除广告
+-(void)closeAdvert;
 
 @end
 
