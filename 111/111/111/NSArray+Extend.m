@@ -19,6 +19,7 @@
     for (int i = 0; i<self.count ; i++) {
         [tempArray addObject:handler(self[i],i,self)];
     }
+    NSLog(@"1111");
     return tempArray;
 }
 //自定义filter函数
