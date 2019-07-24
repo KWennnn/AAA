@@ -40,6 +40,7 @@
      NSLog(@"333");
      NSLog(@"222");
          NSLog(@"444");
+         NSLog(@"666");
 }
 
 -(void)btnClick {
