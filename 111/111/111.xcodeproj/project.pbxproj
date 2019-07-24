@@ -15,6 +15,9 @@
 		216031CA22E7F19200180F2A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 216031C922E7F19200180F2A /* main.m */; };
 		216031D422E7F19200180F2A /* _11Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 216031D322E7F19200180F2A /* _11Tests.m */; };
 		216031DF22E7F19200180F2A /* _11UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 216031DE22E7F19200180F2A /* _11UITests.m */; };
+		216031EF22E7F31200180F2A /* ImageTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 216031EE22E7F31200180F2A /* ImageTool.m */; };
+		216031F422E8014000180F2A /* AdvertManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 216031F322E8014000180F2A /* AdvertManager.m */; };
+		216031F822E803AC00180F2A /* Abc.m in Sources */ = {isa = PBXBuildFile; fileRef = 216031F722E803AC00180F2A /* Abc.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +54,12 @@
 		216031DA22E7F19200180F2A /* 111UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = 111UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		216031DE22E7F19200180F2A /* _11UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _11UITests.m; sourceTree = "<group>"; };
 		216031E022E7F19200180F2A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		216031ED22E7F31200180F2A /* ImageTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ImageTool.h; sourceTree = "<group>"; };
+		216031EE22E7F31200180F2A /* ImageTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ImageTool.m; sourceTree = "<group>"; };
+		216031F222E8014000180F2A /* AdvertManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AdvertManager.h; sourceTree = "<group>"; };
+		216031F322E8014000180F2A /* AdvertManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AdvertManager.m; sourceTree = "<group>"; };
+		216031F622E803AC00180F2A /* Abc.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Abc.h; sourceTree = "<group>"; };
+		216031F722E803AC00180F2A /* Abc.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Abc.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +114,10 @@
 				216031BB22E7F19000180F2A /* AppDelegate.m */,
 				216031BD22E7F19000180F2A /* ViewController.h */,
 				216031BE22E7F19000180F2A /* ViewController.m */,
+				216031ED22E7F31200180F2A /* ImageTool.h */,
+				216031EE22E7F31200180F2A /* ImageTool.m */,
+				216031F522E8038500180F2A /* abc */,
+				216031F122E8010000180F2A /* mgr */,
 				216031C022E7F19000180F2A /* Main.storyboard */,
 				216031C322E7F19200180F2A /* Assets.xcassets */,
 				216031C522E7F19200180F2A /* LaunchScreen.storyboard */,
@@ -130,6 +143,24 @@
 				216031E022E7F19200180F2A /* Info.plist */,
 			);
 			path = 111UITests;
+			sourceTree = "<group>";
+		};
+		216031F122E8010000180F2A /* mgr */ = {
+			isa = PBXGroup;
+			children = (
+				216031F222E8014000180F2A /* AdvertManager.h */,
+				216031F322E8014000180F2A /* AdvertManager.m */,
+			);
+			name = mgr;
+			sourceTree = "<group>";
+		};
+		216031F522E8038500180F2A /* abc */ = {
+			isa = PBXGroup;
+			children = (
+				216031F622E803AC00180F2A /* Abc.h */,
+				216031F722E803AC00180F2A /* Abc.m */,
+			);
+			path = abc;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -262,9 +293,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				216031F822E803AC00180F2A /* Abc.m in Sources */,
 				216031BF22E7F19000180F2A /* ViewController.m in Sources */,
+				216031F422E8014000180F2A /* AdvertManager.m in Sources */,
 				216031CA22E7F19200180F2A /* main.m in Sources */,
 				216031BC22E7F19000180F2A /* AppDelegate.m in Sources */,
+				216031EF22E7F31200180F2A /* ImageTool.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -436,7 +470,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5NZCS3U5P9;
 				INFOPLIST_FILE = 111/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -444,6 +480,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "ansen.-11";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
+				USER_HEADER_SEARCH_PATHS = "${SRCROOT}";
 			};
 			name = Debug;
 		};
@@ -452,7 +489,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5NZCS3U5P9;
 				INFOPLIST_FILE = 111/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -460,6 +499,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "ansen.-11";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
+				USER_HEADER_SEARCH_PATHS = "${SRCROOT}";
 			};
 			name = Release;
 		};
