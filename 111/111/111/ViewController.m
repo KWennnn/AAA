@@ -37,6 +37,7 @@
     [self.view addSubview:btn];
     [self.view bringSubviewToFront:btn];
     [btn addTarget:self action:@selector(btnClick) forControlEvents:UIControlEventTouchUpInside];
+     NSLog(@"333");
 }
 
 -(void)btnClick {
